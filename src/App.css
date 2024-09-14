@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+/* Reset some basic elements for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Define CSS variables for the color scheme and other reusable values */
+:root {
+  --background-color: #000;
+  --app-background: #171717;
+  --primary-color: #4a90e2;
+  --primary-color-dark: #357ABD;
+  --text-color: #333333;
+  --secondary-text-color: #555555;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --border-radius: 12px;
+  --max-width: 400px;
+  --padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* Apply global styles */
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
+}
+
+/* Style the main App container */
+.App {
+  background-color: var(--app-background);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px var(--shadow-color);
+  width: 90%;
+  max-width: var(--max-width);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 70vh;
 }
 
-.App-link {
-  color: #61dafb;
+/* Style the header */
+.App h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--primary-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Style the Register button */
+.App button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.App button:hover {
+  background-color: var(--primary-color-dark);
+}
+
+/* Style the information sections */
+.App div {
+  width: 100%;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.App strong {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--secondary-text-color);
+  font-weight: 600;
+}
+
+.App p {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border-radius: 6px;
+  word-break: break-all;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  color: var(--text-color);
+}
+
+#output {
+  margin: 15px 0px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  min-height: 200px;
+  background: #000;
+  color: #0f0;
+}
+
+@media (min-width: 768px) {
+  .App {
+    /* Center the app with a fixed size */
+    width: var(--max-width);
   }
 }
