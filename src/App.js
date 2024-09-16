@@ -62,15 +62,15 @@ function App() {
             displayName: "WebAuthn User",
           },
           pubKeyCredParams: [
-            { type: "public-key", alg: -7 }, // ECDSA with SHA-256
-            { type: "public-key", alg: -257 }, // RS256
+            { type: "public-key", alg: -7 },
+            { type: "public-key", alg: -257 },
           ],
           authenticatorSelection: {
-            authenticatorAttachment: "platform", // Ensures the use of platform authenticator (e.g., built-in laptop)
+            authenticatorAttachment: "cross-platform",
             userVerification: "required",
           },
           timeout: 60000,
-          attestation: "none", // Optional: Can be set based on your security requirements
+          attestation: "none",
         },
       });
 
@@ -101,6 +101,7 @@ function App() {
               id: credentialIdBuffer,
             },
           ],
+          authenticatorAttachment: "cross-platform",
           userVerification: "required",
           timeout: 60000,
         },
