@@ -11,7 +11,7 @@ Fork the repository from GitHub:
 [WebAuthn-Passkey Repository](https://github.com/jamesbachini/WebAuthn-Passkey.git)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/WebAuthn-Passkey.git
+git clone https://github.com/jamesbachini/WebAuthn-Passkey.git
 cd WebAuthn-Passkey
 ```
 

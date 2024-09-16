@@ -66,7 +66,7 @@ function App() {
             { type: "public-key", alg: -257 },
           ],
           authenticatorSelection: {
-            authenticatorAttachment: "cross-platform",
+            authenticatorAttachment: "platform",
             userVerification: "required",
           },
           timeout: 60000,
