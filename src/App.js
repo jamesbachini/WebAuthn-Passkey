@@ -101,7 +101,6 @@ function App() {
               id: credentialIdBuffer,
             },
           ],
-          authenticatorAttachment: "cross-platform",
           userVerification: "required",
           timeout: 60000,
         },
