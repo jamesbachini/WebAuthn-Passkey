@@ -1,4 +1,3 @@
-```markdown
 # WebAuthn-Passkey React App
 
 This project demonstrates **passwordless and walletless authentication** using **WebAuthn** and **biometric signatures** in a **React application**. It integrates with a **Stellar Soroban smart contract**, showcasing the future of **account abstraction** in Web3.
