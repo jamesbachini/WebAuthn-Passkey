@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+```markdown
+# WebAuthn-Passkey React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project demonstrates **passwordless and walletless authentication** using **WebAuthn** and **biometric signatures** in a **React application**. It integrates with a **Stellar Soroban smart contract**, showcasing the future of **account abstraction** in Web3.
 
-## Available Scripts
+## Quick Start
 
-In the project directory, you can run:
+### 1. Fork the Repo
 
-### `npm start`
+Fork the repository from GitHub:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[WebAuthn-Passkey Repository](https://github.com/jamesbachini/WebAuthn-Passkey.git)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/YOUR_USERNAME/WebAuthn-Passkey.git
+cd WebAuthn-Passkey
+```
 
-### `npm test`
+### 2. Install Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ensure you have **Node.js** and **npm** installed, then run:
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Run the Application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+The application will open in your browser at `http://localhost:3000`, where you can experiment with WebAuthn-based authentication.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Further Reading
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For more information on **WebAuthn**, **account abstraction**, and how this app works with **Stellar Soroban smart contracts**, check out the following:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [WebAuthn PassKey Demo](https://passkey.sorobanbyexample.org/)
+- [Stellar Soroban Smart Contracts](https://github.com/kalepail/soroban-passkey/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Explore the future of Web3 authentication by trying out **passkeys** and contributing to the project!
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Links
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Website](https://jamesbachini.com)
+- [YouTube](https://www.youtube.com/c/JamesBachini?sub_confirmation=1)
+- [Substack](https://bachini.substack.com)
+- [Podcast](https://podcasters.spotify.com/pod/show/jamesbachini)
+- [Spotify](https://open.spotify.com/show/2N0D9nvdxoe9rY3jxE4nOZ)
+- [Twitter](https://twitter.com/james_bachini)
+- [LinkedIn](https://www.linkedin.com/in/james-bachini/)
+- [GitHub](https://github.com/jamesbachini)
